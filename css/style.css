@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.box {
+	background-color: green;
+	border: 5px solid orange;
+	height: 100px;
+}
+
+
+header, footer {
+	height: 100px;
+}
+
+header {
+	margin-bottom: 50px;
+}
+
+footer {
+	margin-top: 50px;
+}
+
+.tall {
+	height: 500px;
+}
+
+.flex-middle {
+	display: flex;
+}
+
+.flex-middle .box.tall {
+	width: 70%;
+}
+
+.flex-middle .box.tall.two {
+	width: 30%;
+	margin-left: 50px;
+}
+
+
